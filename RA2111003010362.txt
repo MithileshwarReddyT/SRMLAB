@@ -5,12 +5,15 @@
 
 int main() {
 
-     int billamt,amtgiven;
-    int q,r;
-     scanf("%d",&amtgiven);
-    scanf("%d",&billamt);
-    q=amtgiven/billamt;
-    r=amtgiven%billamt;
-     printf("Quotient:%d\nRemainder:%d",q,r);    
+     int billamount,givenamount,Quotient,Remainder;
+    printf("Enter billamount :");
+    scanf("%d",&billamount);
+    printf("Enter givenamount :");
+    scanf("%d",&givenamount);
+    Quotient=givenamount/billamount;
+    Remainder=givenamount%billamount;
+    printf("Quotient :%d\n",Quotient);
+    printf("Remainder :%d",Remainder);
+
     return 0;
-}
+    )
